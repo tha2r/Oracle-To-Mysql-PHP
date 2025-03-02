@@ -21,12 +21,12 @@ This repository provides a set of PHP scripts designed to help you migrate table
 
 1. Clone the repository:
    ```
-   git clone https://github.com/tha2r/oracle-to-mysql.git
+   git clone https://github.com/tha2r/oracle-to-mysql-php.git
    ```
 
 2. Navigate into the project folder:
    ```
-   cd oracle-to-mysql
+   cd oracle-to-mysql-php
    ```
 
 3. Configure the connection settings by editing the `config.php` file. This file contains the credentials and connection details for both the Oracle and MySQL databases.
@@ -82,8 +82,7 @@ This script will:
 ```
 Processing table: EMPLOYEES
 Table `EMPLOYEES` created successfully in MySQL.
-1000 rows inserted so far.
-2000 rows inserted so far.
+Processing table: EMPLOYEES [1000 of 1000] 100%
 Data migration completed successfully!
 
 Processing table: DEPARTMENTS
